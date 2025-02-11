@@ -1,0 +1,17 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "This project is a URL shortening platform that enables multiple users to generate short URLs and monitor analytics, including both individual and overall statistics for their created links",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "mocha --timeout 5000 --require dotenv/config --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
